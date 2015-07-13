@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.pawnua.googlemaps.MainActivity" >
+
+    <item
+        android:id="@+id/action_sign_in"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:icon="@drawable/common_signin_btn_icon_dark"
+        android:title="@string/common_signin_button_text_long"/>
+
+    <item
+        android:id="@+id/action_sign_out"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:icon="@drawable/common_signin_btn_icon_dark"
+        android:title="@string/sign_out"/>
+
+    <item
+        android:id="@+id/change_map_type"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/change_map_type"/>
+
+    <item
+        android:id="@+id/action_openStatistics"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_openStatistics"/>
+
+</menu>

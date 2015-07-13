@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/action_sign_in"
+            android:checked="false"
+            android:icon="@drawable/ic_inbox_black"
+            android:title="@string/common_signin_button_text_long" />
+
+        <item
+            android:id="@+id/action_sign_out"
+            android:checked="false"
+            android:title="@string/sign_out" />
+
+        <item
+            android:id="@+id/change_map_type"
+            android:checked="false"
+            android:title="@string/change_map_type" />
+
+        <item
+            android:id="@+id/action_openStatistics"
+            android:checked="false"
+            android:title="@string/action_openStatistics" />
+
+
+
+    </group>
+</menu>
